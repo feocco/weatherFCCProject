@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feocco's Weather App</title>
+  <link rel="stylesheet" type="text/css" href="../static/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+</head>
+<body>
+
+<div class="vertical-center">
+  <div id="app" class="container-fluid">
+    <h1 class="row justify-content-center">Weather App</h1>
+    
+    <div id="current-weather" class="row align-items-center justify-content-center">
+      <div id="current-icon"><i></i>
+        <div id="current-temp" class="temp"></div>
+      </div>
+    </div>
+    
+    <div id="current-location" class="row justify-content-center"></div>
+    
+    <div id="forecast-bar" class="row justify-content-center"></div>
+    
+    <div id="settings-bar" class="row align-items-center justify-content-center">
+      <div id="zip-form">
+        <input id="zip-value" type="text" name="zip-code" placeholder="Zip Code">
+      </div>
+    </div>
+    
+    <div id="footer" class="row justify-content-center">by Feocco</div>
+    
+  </div> 
+</div>
+<div id="bg-chooser">
+  <div class="bg-item bg-item1"></div>
+  <div class="bg-item bg-item2"></div>
+  <div class="bg-item bg-item3"></div>
+  <div class="bg-item bg-item4"></div>
+</div>
+
+<script type="text/javascript" src="../static/js/weather.js"></script>
+
+</body>
+</html>

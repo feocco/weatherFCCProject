@@ -1,0 +1,108 @@
+@media (min-width: 576px) {
+  .weekday-box {
+    display: box;
+  }
+}
+
+body {
+  background-image: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/concrete_wall.png');
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
+
+#app {
+  width: 80%;
+  position: relative;
+  color: #FAEBD7;
+}
+
+#current-icon > i {
+  font-size: 7em;
+}
+
+#current-icon {
+  position: relative;
+  padding: 5px;
+  margin: 15px;
+  margin-bottom: 5px;
+}
+
+#current-temp {
+  position: absolute;
+  right: -5px;
+  bottom: -10px;
+}
+
+#current-location {
+  margin: 5px;
+}
+
+#forecast-bar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.weekday-box > i {
+  font-size: 2em;
+}
+
+.weekday-box {
+  padding: 10px;
+  text-align: center;
+}
+
+#zip-form > input {
+  background-color:rgba(255, 255, 255, .2);
+  border: none;
+  padding: 4px;
+  text-align: center;
+  width: 85px;
+  color: #FAEBD7;
+}
+
+#zip-form {
+  text-align: center;
+  margin: 5px;
+}
+
+
+#bg-chooser {
+  position: fixed;
+  bottom: 0;
+  margin: 5px;
+}
+
+.bg-item {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border: 1px;
+  border-style: solid;
+  border-color: rgba(255,255,255,0.2);
+}
+
+.bg-item1 {
+  background-image: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/black_lozenge.png');
+}
+
+.bg-item2 {
+  background-image: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/green-fibers.png');
+}
+
+.bg-item3 {
+  background-image: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/wild_oliva.png');
+}
+
+.bg-item4 {
+  background-image: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/concrete_wall.png');
+}
+
+#footer2 {
+  font-size: 7px;
+}
