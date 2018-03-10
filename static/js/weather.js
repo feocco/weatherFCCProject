@@ -1,5 +1,5 @@
 // I probably shouldn't include the API key but... how can you hide it in JS? Good question for future Joe.
-var key = 'b5c1a50e294b9eac6f458ee3cbaf2f47';
+var key = 'API_KEY';
 var apiURL = 'http://api.openweathermap.org/data/2.5/weather?zip=';
 var coordURL = 'http://api.openweathermap.org/data/2.5/weather?lat=';
 var forecastURL = 'http://api.openweathermap.org/data/2.5/forecast/daily?lat=';
